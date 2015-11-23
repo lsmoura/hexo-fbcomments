@@ -15,7 +15,7 @@ Configuration
 
 Put the following code inside your _config.yml. Change values as needed.
 
-```
+``` yml
 # Enable facebook comments
 fbcomments:
   enabled: true
