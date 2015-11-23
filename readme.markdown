@@ -8,6 +8,8 @@ Usage
 
 Install the plugin, and setup the config properly. If there is no configuration, the plugin will do nothing.
 
+The theme needs to call a ```&lt;%- fbcommentshead() %&gt;``` on header (before the body tag) and ```&lt;%- fbcomments(post.permalink) %&gt;``` on the place that you want the comments to appear.
+
 Configuration
 -------------
 
